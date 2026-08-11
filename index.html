@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AJJRA TECHNO HUB</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  background:#07111f;
+  color:white;
+  line-height:1.7;
+}
+
+header{
+  background:#020812;
+  padding:18px 6%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  z-index:100;
+  border-bottom:1px solid #183653;
+}
+
+.logo{
+  font-size:25px;
+  font-weight:bold;
+}
+
+.logo span{
+  color:#00e5ff;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:18px;
+}
+
+nav a:hover{
+  color:#00e5ff;
+}
+
+.hero{
+  min-height:90vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:50px 20px;
+
+  background:
+  radial-gradient(circle at top,#164c82,#07111f 60%);
+}
+
+.hero h1{
+  font-size:52px;
+  margin-bottom:20px;
+}
+
+.hero h1 span{
+  color:#00e5ff;
+}
+
+.hero h2{
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  max-width:800px;
+  margin:auto;
+  color:#d5e5f5;
+  font-size:19px;
+}
+
+.buttons{
+  margin-top:30px;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 24px;
+  margin:7px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  background:#00e5ff;
+  color:#001018;
+}
+
+.whatsapp{
+  background:#25d366;
+  color:white;
+}
+
+section{
+  padding:70px 7%;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:45px;
+}
+
+.title h2{
+  font-size:36px;
+}
+
+.title p{
+  color:#9fb4c9;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:
+  repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+
+.card{
+  background:#0d1d31;
+  border:1px solid #1c3d5c;
+  border-radius:16px;
+  padding:30px;
+  text-align:center;
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  border-color:#00e5ff;
+}
+
+.icon{
+  font-size:52px;
+  margin-bottom:15px;
+}
+
+.card h3{
+  font-size:25px;
+  margin-bottom:12px;
+}
+
+.card p{
+  color:#b9cad9;
+}
+
+.ai h3{
+  color:#00e5ff;
+}
+
+.auto h3{
+  color:#00ff88;
+}
+
+.blockchain h3{
+  color:#a970ff;
+}
+
+.crypto h3{
+  color:#ffc400;
+}
+
+.nft h3{
+  color:#ff70c8;
+}
+
+.info{
+  background:#091a2d;
+}
+
+.info-box{
+  max-width:950px;
+  margin:auto;
+}
+
+.info-box h3{
+  color:#00e5ff;
+  font-size:25px;
+  margin-top:25px;
+  margin-bottom:10px;
+}
+
+.info-box p{
+  color:#c5d5e5;
+}
+
+.contact{
+  text-align:center;
+}
+
+.contact-box{
+  max-width:650px;
+  margin:auto;
+  padding:35px;
+  background:#0d1d31;
+  border-radius:16px;
+  border:1px solid #1c3d5c;
+}
+
+.contact-box p{
+  font-size:19px;
+  margin:12px;
+}
+
+.contact-box a{
+  color:#00e5ff;
+  text-decoration:none;
+}
+
+footer{
+  background:#020812;
+  text-align:center;
+  padding:30px;
+  color:#9fb3c8;
+}
+
+@media(max-width:700px){
+
+  header{
+    flex-direction:column;
+  }
+
+  nav{
+    margin-top:12px;
+  }
+
+  nav a{
+    margin:5px;
+    font-size:14px;
+  }
+
+  .hero h1{
+    font-size:38px;
+  }
+
+  .hero h2{
+    font-size:23px;
+  }
+
+  .hero p{
+    font-size:17px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo">
+AJJRA <span>TECHNO HUB</span>
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#technology">Technology</a>
+<a href="#crypto">Crypto</a>
+<a href="#nft">NFT</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div>
+
+<h1>
+AJJRA <span>TECHNO HUB</span>
+</h1>
+
+<h2>
+AI • Automation • Blockchain • Crypto • NFT
+</h2>
+
+<p>
+Exploring the future of digital technology through
+Artificial Intelligence, Automation, Blockchain,
+Cryptocurrency and Non-Fungible Tokens.
+</p>
+
+<div class="buttons">
+
+<a class="btn" href="#technology">
+Explore Technology
+</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/917012383340"
+target="_blank">
+WhatsApp AJJRA
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- TECHNOLOGY -->
+
+<section id="technology">
+
+<div class="title">
+
+<h2>Our Technology</h2>
+
+<p>
+Next-generation digital technologies
+</p>
+
+</div>
+
+
+<div class="cards">
+
+
+<!-- AI -->
+
+<div class="card ai">
+
+<div class="icon">🤖</div>
+
+<h3>Artificial Intelligence</h3>
+
+<p>
+Artificial Intelligence enables computers and
+software to perform tasks that normally require
+human intelligence, such as learning, reasoning,
+language processing and decision making.
+</p>
+
+</div>
+
+
+<!-- AUTOMATION -->
+
+<div class="card auto">
+
+<div class="icon">⚙️</div>
+
+<h3>Automation</h3>
+
+<p>
+Automation uses technology to perform repetitive
+tasks and business processes with less manual work.
+It can improve efficiency, speed and productivity.
+</p>
+
+</div>
+
+
+<!-- BLOCKCHAIN -->
+
+<div class="card blockchain">
+
+<div class="icon">⛓️</div>
+
+<h3>Blockchain Technology</h3>
+
+<p>
+Blockchain is a distributed digital ledger that
+records transactions across a network. It can
+provide transparency, security and tamper-resistant
+records.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- CRYPTO -->
+
+<section class="info" id="crypto">
+
+<div class="title">
+
+<h2>💰 Cryptocurrency</h2>
+
+<p>
+Understanding digital assets and decentralized technology
+</p>
+
+</div>
+
+<div class="info-box">
+
+<h3>What is Cryptocurrency?</h3>
+
+<p>
+Cryptocurrency is a type of digital asset that can use
+cryptography and blockchain technology to record and
+secure transactions.
+</p>
+
+<h3>How does it work?</h3>
+
+<p>
+Transactions can be recorded on a blockchain network.
+Depending on the blockchain, transactions may be
+validated through different consensus mechanisms.
+</p>
+
+<h3>Digital Wallets</h3>
+
+<p>
+A crypto wallet is used to manage cryptographic keys
+that allow users to interact with blockchain assets.
+Users should protect their private keys and recovery
+phrases carefully.
+</p>
+
+<h3>Important</h3>
+
+<p>
+Cryptocurrency prices can be highly volatile. This
+website provides educational information only and
+does not provide financial or investment advice.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- NFT -->
+
+<section id="nft">
+
+<div class="title">
+
+<h2>🖼️ NFT Technology</h2>
+
+<p>
+Non-Fungible Tokens and digital ownership
+</p>
+
+</div>
+
+<div class="cards">
+
+
+<div class="card nft">
+
+<div class="icon">🎨</div>
+
+<h3>Digital Art</h3>
+
+<p>
+NFT technology can be used to represent ownership
+or provenance associated with digital artwork.
+</p>
+
+</div>
+
+
+<div class="card nft">
+
+<div class="icon">🎮</div>
+
+<h3>Gaming</h3>
+
+<p>
+Blockchain-based games can use digital assets and
+NFTs to represent certain in-game items.
+</p>
+
+</div>
+
+
+<div class="card nft">
+
+<div class="icon">🌐</div>
+
+<h3>Web3</h3>
+
+<p>
+NFTs are one component of the broader Web3 ecosystem,
+which explores decentralized applications and digital
+ownership.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="info" id="about">
+
+<div class="title">
+
+<h2>About AJJRA TECHNO HUB</h2>
+
+</div>
+
+<div class="info-box">
+
+<p>
+AJJRA TECHNO HUB focuses on learning, exploring and
+developing innovative digital technology solutions.
+
+Our key areas include Artificial Intelligence,
+Automation, Blockchain Technology, Cryptocurrency
+and NFT technology.
+
+</p>
+
+<h3>Our Vision</h3>
+
+<p>
+To explore emerging technologies and create useful
+digital solutions for individuals and businesses.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<div class="title">
+
+<h2>Contact AJJRA TECHNO HUB</h2>
+
+<p>
+Let's connect and explore technology together.
+</p>
+
+</div>
+
+
+<div class="contact-box">
+
+<p>
+📞 Phone:
+<a href="tel:+917012383340">
+7012383340
+</a>
+</p>
+
+<p>
+📧 Email:
+<a href="mailto:ajjragroup@gmail.com">
+ajjragroup@gmail.com
+</a>
+</p>
+
+<br>
+
+<a class="btn whatsapp"
+href="https://wa.me/917012383340"
+target="_blank">
+🟢 Chat on WhatsApp
+</a>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+© 2026 AJJRA TECHNO HUB
+</p>
+
+<p>
+AI • Automation • Blockchain • Crypto • NFT
+</p>
+
+</footer>
+
+</body>
+</html>
